@@ -22,7 +22,7 @@ in
         userSettings = {
           icon_theme = "Material Icon Theme";
           autosave = "on_focus_change";
-          theme = "Base16 Darcula";
+          theme = "Tokyo Night";
           buffer_font_family = "Fira Code";
           buffer_font_size = 12;
           terminal.button = false;
@@ -197,39 +197,38 @@ in
             };
           }
         ];
-        extensions =
-          [
-            "assembly"
-            "base16"
-            "basher"
-            "biome"
-            "caddyfile"
-            "cargo-tom"
-            "discord-presence"
-            "env"
-            "http"
-            "html"
-            "ini"
-            "make"
-            "dockerfile"
-            "docker-compose"
-            "java"
-            "sql"
-            "nix"
-            "nu"
-            "log"
-            "tombi"
-            "nginx"
-            "git-firefly"
-            "material-icon-theme"
-            "xml"
-            "ruff"
-            "php"
-            "prisma"
-            "python-requirements"
-            "neocmake"
-            "svelte"
-          ];
+        extensions = [
+          "assembly"
+          "base16"
+          "basher"
+          "biome"
+          "caddyfile"
+          "cargo-tom"
+          "discord-presence"
+          "env"
+          "http"
+          "html"
+          "ini"
+          "make"
+          "dockerfile"
+          "docker-compose"
+          "java"
+          "sql"
+          "nix"
+          "nu"
+          "log"
+          "tombi"
+          "nginx"
+          "git-firefly"
+          "material-icon-theme"
+          "xml"
+          "ruff"
+          "php"
+          "prisma"
+          "python-requirements"
+          "neocmake"
+          "svelte"
+        ];
       };
     }
   ];
