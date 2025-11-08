@@ -20,6 +20,7 @@
         python313Packages.impacket
         evil-winrm
         exiftool
+        hashcat
         tor
         dalfox
         httpie
