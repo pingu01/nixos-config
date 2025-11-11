@@ -21,6 +21,7 @@
         evil-winrm
         exiftool
         hashcat
+        enum4linux
         tor
         dalfox
         httpie
