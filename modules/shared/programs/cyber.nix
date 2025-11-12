@@ -22,6 +22,7 @@
         exiftool
         hashcat
         enum4linux
+        xfreerdp
         tor
         dalfox
         httpie
