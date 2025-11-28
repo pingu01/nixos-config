@@ -38,6 +38,8 @@
         wireguard-ui
         neovim
 
+        claude-code
+
       ];
 
       programs.direnv = {
