@@ -40,6 +40,8 @@
 
         claude-code
 
+        foundry
+
       ];
 
       programs.direnv = {
