@@ -11,9 +11,16 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    zen-browser = {
+      url = "github:0xc000022070/zen-browser-flake";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        home-manager.follows = "home-manager";
+      };
+    };
   };
 
-  outputs = { self, nix-darwin, home-manager, nixpkgs }: {
+  outputs = { self, nix-darwin, home-manager, nixpkgs, zen-browser }: {
     # macOS configuration
     darwinConfigurations."mac" = nix-darwin.lib.darwinSystem {
       modules = [
@@ -30,6 +37,9 @@
         ./hosts/nixos
         ./modules/nixos
         home-manager.nixosModules.default
+        {
+          _module.args.zen-browser = zen-browser;
+        }
       ];
     };
   };

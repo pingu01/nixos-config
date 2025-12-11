@@ -1,6 +1,31 @@
-{ pkgs, ... }:
+{ pkgs, zen-browser, ... }:
 {
   environment.systemPackages = with pkgs; [
-    htop tree
+    discord
+    
+    htop 
+    tree
+    gtk3
+    glib
+    gdk-pixbuf
+    pango
+    cairo
+    atk
+
+  # Firefox deps
+    dbus
+    nss
+    nspr
+    libxkbcommon
+    alsa-lib
+    cups
+
+  # Aceleração
+    mesa
+    libdrm
+    wayland
+
+  # Codecs
+    ffmpeg
   ];
 }

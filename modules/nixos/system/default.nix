@@ -7,5 +7,6 @@
     ./development.nix
     ./nvidia.nix
     ./desktop.nix
+    ./zen-browser.nix
   ];
 }
