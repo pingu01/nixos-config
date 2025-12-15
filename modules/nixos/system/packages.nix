@@ -13,6 +13,8 @@
     cairo
     atk
 
+    dbeaver-bin
+
   # Firefox deps
     dbus
     nss
