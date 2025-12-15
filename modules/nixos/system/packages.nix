@@ -14,6 +14,7 @@
     atk
 
     dbeaver-bin
+    sqlite
 
   # Firefox deps
     dbus
