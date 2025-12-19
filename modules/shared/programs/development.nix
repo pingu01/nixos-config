@@ -41,6 +41,7 @@
         claude-code
 
         foundry
+        calibre
 
       ];
 
