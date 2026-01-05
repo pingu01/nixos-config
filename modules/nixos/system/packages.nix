@@ -31,5 +31,9 @@
 
   # Codecs
     ffmpeg
+
+  # Misc
+    calibre
+    flameshot
   ];
 }
