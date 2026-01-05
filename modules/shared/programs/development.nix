@@ -31,6 +31,7 @@
         tree
         htop
         act
+        terraform
 
         obsidian
         gnumake
