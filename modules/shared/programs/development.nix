@@ -30,6 +30,7 @@
         jq
         tree
         htop
+        act
 
         obsidian
         gnumake
