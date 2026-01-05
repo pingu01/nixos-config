@@ -32,6 +32,8 @@
         htop
         act
         terraform
+        awscli2
+
 
         obsidian
         gnumake
