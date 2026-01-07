@@ -33,7 +33,7 @@
         act
         terraform
         awscli2
-
+        postgresql_18
 
         obsidian
         gnumake
