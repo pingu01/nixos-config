@@ -13,6 +13,8 @@
     cairo
     atk
 
+    protonvpn-gui
+
     dbeaver-bin
     sqlite
 
