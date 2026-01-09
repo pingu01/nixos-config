@@ -46,6 +46,8 @@
 
         foundry
 
+        cloc
+
       ];
 
       programs.direnv = {
