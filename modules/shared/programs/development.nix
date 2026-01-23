@@ -13,6 +13,7 @@
 
         nodejs
         python3
+        uv
         rustc
         zulu25
         cargo
@@ -43,10 +44,10 @@
         neovim
 
         claude-code
-
         foundry
-
         cloc
+
+        pandoc
 
       ];
 
