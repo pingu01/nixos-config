@@ -15,7 +15,7 @@
         python3
         uv
         rustc
-        zulu25
+        jdk21
         cargo
         clippy
         rustfmt
