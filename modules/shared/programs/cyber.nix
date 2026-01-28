@@ -27,6 +27,7 @@
         dalfox
         slither-analyzer
         dnsrecon
+        theharvester
         httpie
         (penelope.overrideAttrs (oldAttrs: {
           version = "0.14.8";
