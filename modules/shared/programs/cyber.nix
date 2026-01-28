@@ -26,6 +26,7 @@
         tor
         dalfox
         slither-analyzer
+        dnsrecon
         httpie
         (penelope.overrideAttrs (oldAttrs: {
           version = "0.14.8";
