@@ -1,6 +1,7 @@
 { pkgs, zen-browser, ... }:
 {
   environment.systemPackages = with pkgs; [
+    chromium
     discord
     spotify
     
