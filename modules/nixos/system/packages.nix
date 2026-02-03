@@ -14,6 +14,8 @@
     cairo
     atk
 
+
+    pulseaudioFull
     protonvpn-gui
 
     dbeaver-bin
