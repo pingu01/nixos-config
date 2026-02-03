@@ -16,6 +16,8 @@
 
 
     pulseaudioFull
+    alsa-utils
+
     protonvpn-gui
 
     dbeaver-bin
