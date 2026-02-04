@@ -27,6 +27,7 @@
         dalfox
         slither-analyzer
         dnsrecon
+        ollama
         theharvester
         httpie
         (penelope.overrideAttrs (oldAttrs: {
