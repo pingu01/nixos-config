@@ -45,5 +45,6 @@
     ksnip
     grim
     swappy
+    slurp
   ];
 }
