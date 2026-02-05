@@ -20,11 +20,10 @@
         clippy
         rustfmt
         rust-analyzer
-
         go
         bun
         pipx
-
+        php
         ripgrep
         fd
         bat
