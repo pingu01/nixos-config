@@ -3,6 +3,7 @@
   environment.systemPackages = with pkgs; [
     ghostty
     vscode
-    docker
   ];
+
+  virtualisation.docker.enable = true;
 }

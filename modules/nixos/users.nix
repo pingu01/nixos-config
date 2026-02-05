@@ -8,7 +8,7 @@
     isNormalUser = true;
     description = "Pingu User";
     home = "/home/pingu";
-    extraGroups = [ "wheel" "networkmanager" ];
+    extraGroups = [ "wheel" "networkmanager" "docker" ];
     initialPassword = "changeme";
     shell = pkgs.zsh;
   };
