@@ -42,5 +42,6 @@
   # Misc
     calibre
     flameshot
+    ksnip
   ];
 }
