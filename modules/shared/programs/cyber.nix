@@ -28,6 +28,7 @@
         slither-analyzer
         dnsrecon
         ollama
+        netcat-gnu
         theharvester
         httpie
         (penelope.overrideAttrs (oldAttrs: {
