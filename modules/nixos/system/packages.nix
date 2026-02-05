@@ -43,5 +43,7 @@
     calibre
     flameshot
     ksnip
+    grim
+    swappy
   ];
 }
