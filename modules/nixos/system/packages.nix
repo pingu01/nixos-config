@@ -46,5 +46,6 @@
     grim
     swappy
     slurp
+    pinta
   ];
 }
