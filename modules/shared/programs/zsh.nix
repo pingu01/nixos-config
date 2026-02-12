@@ -7,6 +7,9 @@
   home-manager.sharedModules = [
     {
       programs.zsh = {
+        sessionVariables = {
+          PATH = "/home/pingu/.bun/bin:$PATH";
+        };
         enable = true;
         enableCompletion = true;
         autosuggestion.enable = true;
