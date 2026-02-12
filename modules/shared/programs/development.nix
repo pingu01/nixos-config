@@ -43,6 +43,7 @@
         neovim
 
         claude-code
+        opencode
 
         foundry
         cloc

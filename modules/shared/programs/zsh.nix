@@ -7,9 +7,6 @@
   home-manager.sharedModules = [
     {
       programs.zsh = {
-        sessionVariables = {
-          PATH = "/home/pingu/.bun/bin:$PATH";
-        };
         enable = true;
         enableCompletion = true;
         autosuggestion.enable = true;
@@ -19,7 +16,6 @@
           update = "sudo nixos-rebuild switch";
         };
         history.size = 10000;
-
         oh-my-zsh = {
           enable = true;
           plugins = [
@@ -29,6 +25,9 @@
           ];
           theme = "funky";
         };
+        initExtra = ''
+          export PATH="/home/pingu/.bun/bin:$PATH"
+        '';
       };
     }
   ];
