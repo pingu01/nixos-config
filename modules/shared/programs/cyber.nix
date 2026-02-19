@@ -30,6 +30,7 @@
         ollama
         netcat-gnu
         theharvester
+        libgccjit
         httpie
         (penelope.overrideAttrs (oldAttrs: {
           version = "0.14.8";
