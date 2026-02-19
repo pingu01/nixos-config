@@ -13,6 +13,12 @@
   boot.kernelModules = [ "kvm-intel" ];
   boot.extraModulePackages = [ ];
 
+  services.rpcbind.enable = true; # Needed for NFSv3
+  boot.supportedFilesystems = [ "nfs" ];
+  environment.systemPackages = with pkgs; [
+    nfs-utils
+];
+
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/ce2496b0-b6da-4fdf-8d67-c70e60e72c70";
       fsType = "ext4";
@@ -35,7 +41,7 @@
   # networking.interfaces.enp3s0.useDHCP = lib.mkDefault true;
 
   networking.hosts = {
-    "172.16.9.178" = ["webflow.hc" "automation.webflow.hc"];
+    "172.16.2.35" = ["webflow.hc" "automation.webflow.hc"];
   };
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
