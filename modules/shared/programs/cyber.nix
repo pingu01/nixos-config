@@ -16,7 +16,6 @@
         nikto
         mitmproxy
         openvpn
-        samba
         python313Packages.impacket
         evil-winrm
         exiftool
