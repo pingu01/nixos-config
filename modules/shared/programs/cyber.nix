@@ -20,7 +20,7 @@
         evil-winrm
         exiftool
         hashcat
-        enum4linux
+        # enum4linux
         freerdp
         tor
         dalfox
@@ -28,7 +28,7 @@
         dnsrecon
         ollama
         netcat-gnu
-        theharvester
+        # theharvester
         libgccjit
         httpie
         (penelope.overrideAttrs (oldAttrs: {
