@@ -32,6 +32,13 @@
     hostPlatform = "aarch64-darwin";  # or "x86_64-darwin"
     config.allowUnfree = true;
     config.allowBroken = true;
+    overlays = [
+      (final: prev: {
+        kvazaar = prev.kvazaar.overrideAttrs (_: {
+          doCheck = false;
+        })
+      })
+    ]
   };
   
   system.stateVersion = 5;
